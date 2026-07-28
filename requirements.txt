@@ -1,0 +1,8 @@
+# Use opencv-python (not headless/contrib) — headless conflicts with this package.
+opencv-python>=4.8,<5
+numpy>=1.23,<2.4
+langgraph
+langchain-openai
+python-dotenv
+ultralytics
+streamlit

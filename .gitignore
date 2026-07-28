@@ -1,0 +1,25 @@
+# Segredos
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Pesos YOLO (baixos do Drive/Colab — não versionar)
+models/**/weights/*.pt
+*.pt
+
+# Saídas geradas
+data/outputs/
+
+# IDE / SO
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Dataset e treino (não versionar)
+scripts/yolo_dataset/
+scripts/runs/
