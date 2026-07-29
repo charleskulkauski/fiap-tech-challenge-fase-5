@@ -80,7 +80,7 @@ O grafo (`src/graph.py`) é linear: `visao → analista → relatorio`.
 
 ## Treino do modelo (Google Colab)
 
-O script `prepareipynb.py` replica o notebook Colab:
+O script `scripts/train_yolo_google_colab.py` replica o notebook Colab:
 
 1. Baixa o dataset Kaggle `carlosrian/software-architecture-dataset`
    (imagens de arquitetura **já anotadas** em XML)
@@ -169,7 +169,9 @@ Ultralytics — sem Roboflow nem API de visão externa.
 
 ```
 ├── streamlit_app.py          # Interface web
-├── prepareipynb.py           # Script de treino Colab (referência)
+├── scripts/
+│   ├── train_yolo_google_colab.py  # Script de treino Colab (referência)
+│   └── train_yolo.py               # Variante local de treino
 ├── models/
 │   └── software_architecture_model/weights/  # coloque best.pt aqui
 ├── src/

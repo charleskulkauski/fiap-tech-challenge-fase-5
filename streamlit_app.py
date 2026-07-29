@@ -359,7 +359,7 @@ if usar_exemplo and exemplos_disponiveis:
                 default_idx = i
                 break
     exemplo_escolhido = st.selectbox(
-        "Diagrama de avaliação",
+        "Diagrama de avaliação (exemplos utilizados no PDF do Hackathon)",
         options=rotulos,
         index=default_idx,
         help="Figuras 1 e 2 do PDF do Hackathon (IADT Fase 5).",

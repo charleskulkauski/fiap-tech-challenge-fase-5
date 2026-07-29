@@ -168,10 +168,10 @@ gdrive_save_path = "/content/drive/MyDrive/yolov8_training_results"
 
 model.train(
     data=yaml_path,
-    epochs=50,
+    epochs=50, # Ciclos de aprendizado
     imgsz=640,
     batch=16,
     device=0,
-    project=gdrive_save_path,
+    project=gdrive_save_path, # Salvar checkpoints
     name="software_architecture_model",
 )
